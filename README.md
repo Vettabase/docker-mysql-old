@@ -12,6 +12,8 @@ a project that makes old software versions available. Generic binaries can be us
 on any Linux distribution. We don't want to make the repository bloat by adding distro-specific
 packages.
 
+You can pull the image from DockerHub. See [VettaDock](https://hub.docker.com/r/vettadock/mysql-old).
+
 Support for images and containers created from this repository is available at
 [Vettabase](https://vettabase.com).
 
