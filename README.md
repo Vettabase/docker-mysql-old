@@ -1,4 +1,4 @@
-# mysql-old Docker image
+# vettadock/mysql-old Docker image
 
 This Docker image contains obsolete MySQL versions, not supported anymore by the vendor.
 We try to only include the last release form each version, because the need to run an obsolete release
