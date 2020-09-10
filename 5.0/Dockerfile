@@ -26,7 +26,7 @@ RUN \
     && apt-get install -y \
         libncursesw5 \
     && tar zxvf /usr/local/mysql.tar.gz \
-    && rm -rf /usr/local/mysql.tar.gz \
+    && rm /usr/local/mysql.tar.gz \
     && mv mysql-5.0.96-linux-x86_64-glibc23 mysql \
     && cd /usr/local/mysql \
     && /usr/local/mysql/scripts/mysql_install_db --user=mysql

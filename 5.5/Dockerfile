@@ -28,7 +28,7 @@ RUN \
         libaio1 \
         libncurses5 \
     && tar zxvf /usr/local/mysql.tar.gz \
-    && rm -rf /usr/local/mysql.tar.gz \
+    && rm /usr/local/mysql.tar.gz \
     && mv mysql-5.5.62-linux-glibc2.12-x86_64 mysql
 RUN cd /usr/local/mysql \
     && /usr/local/mysql/scripts/mysql_install_db --user=mysql
