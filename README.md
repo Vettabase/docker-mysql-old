@@ -1,5 +1,7 @@
 # vettadock/mysql-old Docker image
 
+Version: 0.2.01
+
 This Docker image contains obsolete MySQL versions, not supported anymore by the vendor.
 We try to only include the last release form each version, because the need to run an obsolete release
 from an obsolete version is extremely unlikely. However, including the latest release
@@ -31,8 +33,9 @@ consulting in case of troubles. Vettabase is here to help.
 
 ## Supported versions
 
-Supported versions:
+Supported MySQL versions:
 
+- 5.6
 - 5.5
 - 5.1
 - 5.0
