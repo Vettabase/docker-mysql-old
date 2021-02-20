@@ -105,6 +105,5 @@ The best ways of contributing this project are:
 
 This repository is maintained by Vettabase.
 
-For questions or commercial support inquiries, please contact info@vettabase.com.
-
+For questions or commercial support enquiries, please contact info@vettabase.com.
 
