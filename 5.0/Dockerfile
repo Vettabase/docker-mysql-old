@@ -40,9 +40,9 @@ USER root:root
 LABEL \
     com.vettabase.vendor="Vettabase" \
     maintainer="federico.razzoli@vettabase.com" \
-	com.vettabase.license="GNU GPL 2.0" \
+    com.vettabase.license="GNU GPL 2.0" \
     description="MySQL 5.0 on recent Ubuntu" \
-	com.vettabase.maturity="alpha" \
-	version="1.1"
+    com.vettabase.maturity="alpha" \
+    version="1.1"
 
 
