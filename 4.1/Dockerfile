@@ -32,6 +32,8 @@ RUN \
     && cd /usr/local/mysql \
     && /usr/local/mysql/scripts/mysql_install_db --user=mysql
 
+# TODO: Add healthcheck user by INSERTing it manually into system tables
+
 EXPOSE 3306
 ENV PATH="/usr/local/mysql/bin:${PATH}"
 ENTRYPOINT ["mysqld_safe"]

@@ -33,7 +33,8 @@ RUN \
     && rm /usr/local/mysql.tar.gz \
     && mv mysql-5.6.51-linux-glibc2.12-x86_64 mysql
 RUN cd /usr/local/mysql \
-    && /usr/local/mysql/scripts/mysql_install_db --user=mysql
+    && /usr/local/mysql/scripts/mysql_install_db --user=mysql \
+    && /usr/local/mysql/bin/mysql -uroot -e "CREATE USER healthcheck@localhost;"
 
 EXPOSE 3306
 ENV PATH="/usr/local/mysql/bin:${PATH}"
